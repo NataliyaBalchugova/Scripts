@@ -1,0 +1,8 @@
+#!/bin/bash
+mkdir Balchugova
+cd Balchugova
+echo 123465 > 1.txt
+cp 1.txt 2.txt 
+cd ..
+zip -r Balchugova.zip Balchugova
+rm -r Balchugova
