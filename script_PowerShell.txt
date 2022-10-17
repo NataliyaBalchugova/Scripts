@@ -1,0 +1,7 @@
+mkdir Balchugova
+cd Balchugova
+echo Vsem privet ya Natasha > 1.txt
+copy 1.txt 2.txt 
+cd..
+& "C:\Program Files\7-Zip\7z.exe" a -tzip -ssw -mx1 Balchugova.zip Balchugova\*
+rm -r -fo Balchugova
